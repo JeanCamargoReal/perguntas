@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import './questao.dart';
 
-main() => runApp(PerguntaApp());
+main() => runApp(const PerguntaApp());
 
 class PerguntaApp extends StatefulWidget {
+  const PerguntaApp({super.key});
+
   @override
   State<PerguntaApp> createState() => _PerguntaAppState();
 }
